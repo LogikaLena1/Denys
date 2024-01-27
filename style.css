@@ -1,0 +1,137 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 20px;
+    margin: 0 auto;
+    font-weight: 400;
+}
+
+header{
+background-color: gold;
+ padding: 20px;   
+}
+main{
+background-color: mediumturquoise;
+padding: 20px;
+}
+.two div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.person{
+background-color: blanchedalmond;
+width: 300px;
+margin:20px;
+padding: 20px;
+border-radius: 20px;
+color: rgb(2, 2, 87);
+   box-shadow: 5px 5px 5px 5px rgb(18, 115, 148);
+}
+.person img{
+    width: 220px;
+}
+ol{
+ width: 40%;  
+ float: left; 
+}
+
+.one img{ 
+width: 40%;
+float: right;
+}
+
+.one div{
+display: flex;
+justify-content: space-between;
+}
+
+.product{
+background-image: linear-gradient(gold,mediumspringgreen );
+padding: 20px;
+border-radius: 15px;
+color: blue;
+width: 300px;
+text-align: center;
+margin-bottom:20px ;
+
+}
+.product:hover{
+    box-shadow: 5px 5px 5px 5px rgb(18, 115, 148);
+    transition:0.4s ;
+}
+.product img{
+    width: 220px;
+}
+.product h3{
+    color: rgb(0, 128, 255);
+    font-size: 25px;
+}
+
+
+h1,h2{
+    text-align: center;
+    color: rgb(131, 7, 32);
+}
+.three div{
+ display: flex;
+justify-content: space-between;
+flex-wrap: wrap ;
+}
+
+nav a{
+text-decoration: none;
+padding: 5px;
+font-size: 23px;
+color: rgb(21, 4, 117);
+font-weight: 600;
+}
+
+nav a:hover{
+background-color: white;
+padding: 5px;
+border-radius: 5px;
+}
+
+footer{
+ background-color: gold;  
+ padding: 20px; 
+ height: 160px;
+ 
+}
+
+.left{
+ float: left; 
+ padding: 10px;  
+ color: white;
+}
+
+.right{
+    margin-top: 60px;
+float: right;
+
+}
+
+.vidgyk{
+    background-image: linear-gradient(rgba(140, 140, 255, 0.711), 
+    rgba(157, 222, 255, 0.821));
+    padding: 20px;
+    border-radius:20px ;
+    margin-bottom: 20px;
+}
+.four p{
+    width: 40%;
+    float: left;
+    padding: 20px;
+    border-radius:20px ;
+    
+    background-image: linear-gradient(rgb(255, 235, 205), rgba(255, 235, 205, 0.418));
+
+}
+.four img{
+    width: 50%;
+    float: right;
+}
+.four{
+    display: flex;
+    justify-content: space-between;
+}
